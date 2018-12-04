@@ -1,13 +1,19 @@
 header {
     width: 100%;
-    .logo-main {
-      background-image: url('../../assets/logo.png');
-      width: 40px;
-      height: 40px;
-      align: top;
-      background-size: contain;
-      background-repeat: no-repeat;
+
+    .top {
+      margin: 0px;
+      height:9vh;
+      background-color: white;
+      position: fixed;
+      right: 0;
+      left: 0;
+      z-index: 999;
+      border: 0.75vh solid #b3cccc;
+      display: table-cell;
+      overflow: auto;
     }
+
   .logo-small {
     background-image: url('../../assets/logo.png');
     width: 15px;
@@ -16,14 +22,11 @@ header {
     background-repeat: no-repeat;
   }
 
-    .example-spacer {
-      flex: 1 1 auto;
-    }
     .title {
       color: black;
       font-family: Dosis, sans-serif;
       font-size: 30px;
-      align: middle;
+      align: top;
       text-decoration: none;
     }
     .visit-team-page-link {
@@ -45,15 +48,19 @@ header {
     }
 
     .mat-toolbar {
-      background: white;
-      border: 0.75vh solid #b3cccc;
-      height:10vh;
+      margin: 0px;
+        height:10vh;
+        background-color: white;
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        border: 0.75vh solid #b3cccc;
+        display: table-cell;
+        overflow: auto;
+        line-height: 18px;
+    }
 
-    }
-    .mat-icon {
-      vertical-align: middle;
-      //margin: 0 5px;
-    }
     a {
       cursor: pointer;
     }
